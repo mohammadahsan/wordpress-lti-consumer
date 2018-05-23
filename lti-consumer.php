@@ -268,7 +268,7 @@ function sb_lti_launch_func($attrs) {
         } else if ( $data['action'] == 'link' ) {
             $html .= '<a href="#" onclick="lti_consumer_launch(\'' . $id . '\')">Launch ' . $data['text'] . '</a>';
         } else {
-            $html .= '<button class="btn btn-primary btn-lg btn-block" onclick="lti_consumer_launch(\'' . $id . '\')">Launch ' . $data['text'] . '</button>';
+            $html .= '<button class="btn btn-primary btn-lg btn-block" onclick="lti_consumer_launch(\'' . $id . '\')">Go to Notebook Exercise.</button>';
         }
 
         $html .= '</form>';
